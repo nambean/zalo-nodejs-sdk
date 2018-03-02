@@ -35,7 +35,7 @@ var ZaloSocial = require('zalo-sdk').ZaloSocial;
 var zsConfig = {
 	appId: '1131677296116040198',
 	redirectUri: 'http://localhost/login/zalo-callback',
-	secretkey: 'your app secret'
+	appSecret: 'your app secret'
 };
 var ZSClient = new ZaloSocial(zsConfig);
 ```
